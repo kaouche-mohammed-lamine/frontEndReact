@@ -1,0 +1,197 @@
+
+
+@font-face {
+    font-family: "parasupreme";
+    src: url("Fonts/parasupreme-regularfine-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "bella";
+    src: url("Fonts/f37bella-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "nolan";
+    src: url("Fonts/nolan-bold-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "nolanmedium";
+    src: url("Fonts/nolan-medium-webfont.woff") format('woff');
+}
+
+label{
+	color : #C8C8C7;
+	font-family: nolan;
+	font-size: 10px!important;
+	padding-left: 5px!important;
+}
+
+.p{
+	color: #C17A62!important;
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+	text-align: center!important;
+}
+
+.Col-div {
+
+		text-align: center!important;
+		padding-left: 10px!important;
+		padding-right: 10px!important;
+	  
+}
+
+.Col{
+	text-align: center;
+	color: #fff;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+
+.App {
+  background: #EFEEE9;
+  	  padding-left:0px!important;
+	  padding-right:0px!important;
+	  font-family: parasupreme;
+}
+
+.styleColLast{
+	text-align: center!important;
+	color: #C17A62;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	padding-top: 30px!important;
+    padding-bottom: 30px!important;
+  }
+
+.Rowstyle{
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+	padding-top: 30px!important;
+	padding-bottom: 30px!important;
+  }
+
+
+
+  .stylediv{
+	text-align: center;
+	color: #C17A62;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	border-left: solid 2px #C17A62;
+  }
+
+  .makeStyles-formControl-1 {
+    margin: 0px!important; 
+    min-width: 120px;
+}
+
+
+  img{
+	width: 100%; height: auto;
+  }
+  .stylecol{
+	text-align: center;
+	color: #C17A62;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+  }
+.social{ color: #C17A62;
+	font-size: 18px 
+}
+
+a{ text-align: center;
+	color: #C17A62;
+	font-family: nolan ;
+	text-decoration: none;}
+h2 {
+		font-family: nolanmedium;
+		font-weight: 100;
+    font-size: xx-large;
+  }
+  h4 {
+	font-family: nolanmedium;
+	font-weight: 100;
+	margin-bottom: -15px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+input{
+	border: solid #c17a62 1px!important;
+	color: #c17a62!important
+}
+
+input#EmailAddress{
+	border: solid #c17a62 0px!important;
+	border-bottom: solid #c17a62 1px!important;
+	color: #c17a62!important
+}
+
+.MuiInput-underline:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "\00a0";
+    position: absolute;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-bottom: 1px solid  #c17a62!important;
+    pointer-events: none;
+}
+
+.MuiInput-underline:after {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    border-bottom: 2px solid #c17a62 !important;
+    pointer-events: none;
+}
+  .h2style{ margin-bottom: 3px; 
+	margin-top: 3px; }
+	.MuiSelect-select.MuiSelect-select {
+		padding-right: 24px;
+		border: solid #c17a62 1px!important;
+	}
+  .textp{ font-size: 7px;
+	font-family: nolanmedium }
+  
+  .divStyle{ text-align: center;
+	color: #C17A62;
+	font-family: nolan;
+ }
+
+ .pstyle{ font-size: 10px!important;
+		line-height: 1.8em;
+ }
+
+.header {
+
+	background-image: url('./backImage.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;  
+	  background-size: cover;
+	  padding-left:0px!important;
+	  padding-right:0px!important;
+}
+
+.Articles{
+	  background: #ffffff;
+
+}
+
+.footer{
+	background:#26203A;
+		  padding-left:0px!important;
+	  padding-right:0px!important;
+}
+
+
+.form{
+		  padding-left:0px!important;
+	  padding-right:0px!important;
+}

@@ -1,0 +1,9 @@
+.App {
+  background: #EFEEE9;
+}
+
+.header {
+	background-image: url('./backImage.jpg');
+	height:60vh;
+}
+
