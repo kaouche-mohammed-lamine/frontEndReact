@@ -6,7 +6,6 @@ import headerApp from "./Component/headerApp";
 import bodyApp from "./Component/bodyApp";
 import footerApp from "./Component/footerApp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import img from "./article.jpg";
 import { MdArrowBack, MdArrowForward, MdMenu } from "react-icons/md";
 import { makeStyles } from '@material-ui/core/styles';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -19,6 +18,7 @@ import TextField from '@material-ui/core/TextField';
 import { FiCircle } from "react-icons/fi";
 import { FaFacebookF ,FaLinkedinIn,FaTwitter,FaYoutube,FaInstagram } from "react-icons/fa";
 import styled from 'styled-components';
+
 
 var useStyles = makeStyles(theme => ({
     formControl: {
@@ -51,7 +51,7 @@ function App() {
               md={4}
               className="Col"
             >
-              <div style={{fontSize: "10px",marginTop: "25px",textAlign:"left",paddingLeft:"20%"}}><MdMenu/> MENU{" "}</div>
+              <div style={{fontSize: "20px",marginTop: "25px",textAlign:"left",paddingLeft:"20%"}}><MdMenu style={{marginBottom: "-5px"}}/> <label  style={{fontSize: "20px",marginTop: "25px",textAlign:"left",paddingLeft:"20%",color:"#fff"}}>MENU</label>{" "}</div>
             </Col>{" "}
             <Col
               md={4}
@@ -109,7 +109,7 @@ function App() {
                 paddingLeft: "10px",
                 paddingRight: "10px"
               }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <img src={require("./Images/1.png")} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
               <p className="p"> Etiam porta sem malesuada magna mollis euismod. </p>{" "}</div>
               
             </Col>{" "}
@@ -122,7 +122,7 @@ function App() {
                 paddingLeft: "10px",
                 paddingRight: "10px"
               }}><label> DEC 04, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <img src={require("./Images/2.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
               <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}
               </div>
             </Col>{" "}
@@ -136,7 +136,7 @@ function App() {
                 paddingRight: "10px"
               }}>
               <label> NOV 16, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <img src={require("./Images/3.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
               <p className="p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>{" "}
               </div>
             </Col>{" "}
@@ -157,8 +157,8 @@ function App() {
                 paddingLeft: "10px",
                 paddingRight: "10px"
               }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
-              <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}
+              <img src={require("./Images/4.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <p className="p"> Etiam porta sem malesuada magna mollis euismod. </p>{" "}
               </div>
             </Col>{" "}
             <Col
@@ -170,7 +170,7 @@ function App() {
                 paddingLeft: "10px",
                 paddingRight: "10px"
               }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <img src={require("./Images/5.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
               <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
             </Col>{" "}
             <Col
@@ -182,8 +182,8 @@ function App() {
                 paddingLeft: "10px",
                 paddingRight: "10px"
               }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
-              <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
+              <img src={require("./Images/6.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <p className="p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.. </p>{" "}</div>
             </Col>{" "}
           </Row>{" "}
           <Row
@@ -202,7 +202,19 @@ function App() {
                 paddingLeft: "10px",
                 paddingRight: "10px"
               }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <img src={require("./Images/7.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <p className="p"> Etiam porta sem malesuada magna mollis euismod. </p>{" "}</div>
+            </Col>{" "}
+            <Col
+              md={4}
+              className="Col"
+            >
+              <div style={{
+                textAlign: "center",
+                paddingLeft: "10px",
+                paddingRight: "10px"
+              }}><label> DEC 20, 18 </label>{" "}
+              <img src={require("./Images/8.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
               <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
             </Col>{" "}
             <Col
@@ -214,20 +226,8 @@ function App() {
                 paddingLeft: "10px",
                 paddingRight: "10px"
               }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
-              <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
-            </Col>{" "}
-            <Col
-              md={4}
-              className="Col"
-            >
-              <div style={{
-                textAlign: "center",
-                paddingLeft: "10px",
-                paddingRight: "10px"
-              }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
-              <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
+              <img src={require("./Images/9.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <p className="p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.. </p>{" "}</div>
             </Col>{" "}
           </Row>{" "}
           <Row
@@ -246,7 +246,19 @@ function App() {
                 paddingLeft: "10px",
                 paddingRight: "10px"
               }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <img src={require("./Images/10.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <p className="p"> Etiam porta sem malesuada magna mollis euismod. </p>{" "}</div>
+            </Col>{" "}
+            <Col
+              md={4}
+              className="Col"
+            >
+              <div style={{
+                textAlign: "center",
+                paddingLeft: "10px",
+                paddingRight: "10px"
+              }}><label> DEC 20, 18 </label>{" "}
+              <img src={require("./Images/11.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
               <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
             </Col>{" "}
             <Col
@@ -258,66 +270,11 @@ function App() {
                 paddingLeft: "10px",
                 paddingRight: "10px"
               }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
-              <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
-            </Col>{" "}
-            <Col
-              md={4}
-              className="Col"
-            >
-              <div style={{
-                textAlign: "center",
-                paddingLeft: "10px",
-                paddingRight: "10px"
-              }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
-              <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
+              <img src={require("./Images/12.png")}  style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
+              <p className="p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>{" "}</div>
             </Col>{" "}
           </Row>{" "}
-          <Row
-            style={{
-              marginLeft: "0px",
-              marginRight: "0px",
-              paddingTop: "30px"
-            }}
-          >
-            <Col
-              md={4}
-              className="Col"
-            >
-              <div style={{
-                textAlign: "center",
-                paddingLeft: "10px",
-                paddingRight: "10px"
-              }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
-              <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
-            </Col>{" "}
-            <Col
-              md={4}
-              className="Col"
-            >
-              <div style={{
-                textAlign: "center",
-                paddingLeft: "10px",
-                paddingRight: "10px"
-              }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
-              <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
-            </Col>{" "}
-            <Col
-              md={4}
-              className="Col"
-            >
-              <div style={{
-                textAlign: "center",
-                paddingLeft: "10px",
-                paddingRight: "10px"
-              }}><label> DEC 20, 18 </label>{" "}
-              <img src={img} style={{ width: "100%", height: "auto",paddingTop:"10px" }} />{" "}
-              <p className="p"> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus. </p>{" "}</div>
-            </Col>{" "}
-          </Row>{" "}
+          
           <Row
              className="Rowstyle"
           >
